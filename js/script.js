@@ -88,7 +88,7 @@ for (let i = 100; i <= 200; i++) {
 // Determine the number of its even divisors
 // Find the sum of its even divisors
 
-console.log(`#8,9 and 10 divisors of a natural number, even divisors, and the sum of its even divisors`);
+console.log(`#9, 10 and 11 divisors of a natural number, even divisors, and the sum of its even divisors`);
 
 let naturalNumber = Number(prompt(`Enter a natural number:`));
 if (isNaN(naturalNumber) || naturalNumber <= 0) {
@@ -113,7 +113,7 @@ if (isNaN(naturalNumber) || naturalNumber <= 0) {
 
 // Print the complete multiplication table from 1 to 10
 
-console.log(`#11 multiplication table from 1 to 10`);
+console.log(`#12 multiplication table from 1 to 10`);
 
 for (let i = 1; i <= 10; i++) {
     for (let y = 1; y <= 10; y++) {
