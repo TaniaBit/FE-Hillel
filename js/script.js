@@ -19,7 +19,7 @@ function padString(str, length, padChar, padLeft = false) {
     }
 
    if (str.length >= length) {
-        return str.slice(0, length);
+        return str.substring(0, length);
     }
 
     const paddingLength = length - str.length;
